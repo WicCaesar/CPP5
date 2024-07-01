@@ -6,7 +6,7 @@
 /*   By: cnascime <cnascime@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/16 21:43:14 by cnascime          #+#    #+#             */
-/*   Updated: 2024/06/29 09:36:44 by cnascime         ###   ########.fr       */
+/*   Updated: 2024/06/29 09:36:09 by cnascime         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 #include "AForm.hpp"
 #include <exception>
 
-Bureaucrat::Bureaucrat() : name_("Canalha") {
+Bureaucrat::Bureaucrat(void) : name_("Canalha") {
 	this->grade_ = 150;
 	std::cout << *this << std::endl;
 };

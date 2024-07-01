@@ -5,7 +5,7 @@ DEFAULT		=	\033[0m
 NAME		= bureaucrat
 SOURCESPATH	= ./
 SOURCESLIST	= main.cpp Bureaucrat.cpp AForm.cpp ShrubberyCreationForm.cpp \
-				RobotomyRequestForm.cpp PresidentialPardonForm.cpp
+				RobotomyRequestForm.cpp PresidentialPardonForm.cpp Intern.cpp
 SOURCES = $(addprefix $(SOURCESPATH), $(SOURCESLIST))
 
 COMPILE	= c++
